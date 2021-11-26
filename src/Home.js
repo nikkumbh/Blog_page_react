@@ -8,10 +8,10 @@ const Home = () => {
     { title: "Web dev top tips", body: "lorem ipsum...", author: "mario", id: 3,
     },
   ]);
-
+  
   return (
     <div className="home">
-      <BlogList blogs={blogs}/>
+      <BlogList blogs={blogs} title="All Blogs!" />
     </div>
   );
 };
